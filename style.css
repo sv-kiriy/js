@@ -1,0 +1,67 @@
+@charset 'utf-8';
+
+body {
+	background-color: #EDEEF0;
+	color: #111;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+th, td {
+	border: solid 1px;
+	padding: 10px;
+}
+
+.delete_btn {
+	background-color: #ff8c8c;
+}
+
+.form_wrapper {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+table {
+	border: 0 solid black;
+	text-align: center;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.submit-button {
+	width: 330px;
+	border-radius: 30px;
+	padding: 15px 20px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+button:hover {
+	background-color: #d3c3b7;
+}
+
+button {
+	transition: all 0.3s;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: cornsilk;
+	padding: 15px 20px;
+	width: 100px;
+}
+
+input {
+	width: 300px;
+	margin: 4px 0;
+	border-radius: 30px;
+	padding: 15px;
+	outline-style: none;
+	border-style: none;
+
+}
+
+#error_message {
+	color: red; 
+	display: none; 
+	font-size: 16px;
+}
